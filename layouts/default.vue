@@ -112,6 +112,11 @@ export default {
           title: 'Inspire',
           to: '/inspire'
         },
+        {
+          icon: 'mdi-google-controller',
+          title: 'Games',
+          to: '/games'
+        },
       ],
       miniVariant: false,
       right: true,
