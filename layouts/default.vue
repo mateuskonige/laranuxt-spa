@@ -1,11 +1,13 @@
 <template>
-  <v-app dark>
+  <v-app >
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
       :clipped="clipped"
       fixed
       app
+      color="primary"
+      dark
     >
       <v-list>
         <v-list-item
